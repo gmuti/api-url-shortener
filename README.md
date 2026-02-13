@@ -55,6 +55,8 @@ graph LR
    Démarrez les conteneurs pour DynamoDB et MinIO :
    ```bash
    docker compose up -d
+   npm install @aws-sdk/client-dynamodb
+   npm install @aws-sdk/client-s3
    ```
 
 2. **Initialiser les ressources** :
