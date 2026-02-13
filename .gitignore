@@ -1,0 +1,17 @@
+# Node
+node_modules/
+
+# AWS SAM
+.aws-sam/
+
+# Build
+dist/
+build/
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Logs
+*.log
